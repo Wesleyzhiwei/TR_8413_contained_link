@@ -1,0 +1,89 @@
+.top_text {
+	background-color: #170404;
+	color: #fff;
+	padding: 20px 25px;
+	font-family: Montserrat, sans-serif;
+}
+.text_style {
+	text-align: justify;
+	font-family: Verdana, sans-serif;
+	font-size: 11px;
+	}
+.column {
+	float: left;
+	width: 50%;
+	padding-right: 30px;
+}
+.column_padding{
+	padding-top: 10px;
+	padding-right: 150px;
+	padding-bottom: 50px;
+	padding-left: 150px;
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+@media screen and (max-width: 900px) {
+  .column  {
+	width: 25%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column  {
+    width: 100%;
+  }
+}
+.fa {
+	padding: 0px;
+	font-size: 5px;
+	width: 20px;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.fa:hover {
+	opacity: 0.7;}
+.icons {
+	position: fixed;
+	top: 50%;
+	transform: translateY(-50%);
+	}
+.icons ul {
+	padding: initial;
+  }
+.icons ul li{
+	height: 60px;
+	width: 50px;
+	list-style-type: none;
+	color: #fff;
+	background: none}
+.icons ul li:hover{
+	padding-left:30px;
+	width: 60px;
+	transition: ls;}
+.icons ul li img {
+	position: fixed;
+	width: 50px;
+	height: 50px;
+}
+.chart {
+	height: 250px;
+	width:100%;}
+
+.clock {
+	text-align: center;
+}
+body {
+	background: linear-gradient(70deg, rgba(189,50,79,0.5) 0%, rgba(204,108,89,0.5) 7%, rgba(224,158,24,0.5) 18%, rgba(227,236,74,0.5) 35%, rgba(47,226,65,0.5) 52%, rgba(80,218,96,0.5) 62%, rgba(24,249,254,0.33664803812149857) 70%, rgba(60,87,255,0.5) 85%, rgba(104,82,255,0.5) 100%);
+	background-size: 2500% 2500%; 
+	animation: gradient 30s ease infinite alternate;
+}
+
+@keyframes gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+	

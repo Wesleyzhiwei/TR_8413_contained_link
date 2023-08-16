@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ExamplePage</title>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+   <script type="text/javascript" src="libs\ScriptFile.js"></script>
+   <script src="libs\googleapis\3.5.1\jquery.min.js"></script>
+   <script src="libs\bootstrap_mini\3.4.1\bootstrap.min.js"></script>
+   <script src="libs\canvasjs\canvasjs.min.js"></script>
+   <link rel="stylesheet" href="libs\StyleSheet.css"></link>
+   <link rel="stylesheet" href="libs\bootstrap_mini_css\3.4.1\bootstrap.min.css"></link>
+</head>
+<body>
+<div class="top_text text-center">
+  <h1>Example Page for Testing</h1>
+</div>
+<div class="column_padding">
+  <div class="row">
+		<div class="column">
+			<h3><b>Video</b></h3>
+				<div class="embed-responsive embed-responsive-16by9">
+					<video controls id="video" class="myVideo" autoplay loop muted >
+						<source src="Files/720p_5min_15fps_CBR10Mbps.mp4" type="video/mp4"></video>
+				</div>
+		</div>
+		<div class="column">
+			<h3><b>Dynamic data</b></h3>
+				<p id="timeContrainer" class="clock"></p>
+				<div id="chartContainer" class="chart"></div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="column">
+			<h3><b>Graphic carousel</b></h3>
+			<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="1000">
+			
+					<div class="carousel-inner">
+					  <div class="item active">
+						<img src="images\TestImagecontrol_imageHD_1920x1200_jpg100.jpg" alt="1920x1200" style="width:100%;">
+						<div class="carousel-caption">
+						</div>
+					  </div>
+					  <div class="item">
+						<img src="images\TestImagecontrol_image2K_2048x1080_jpg100.jpg" alt="2048x1080" style="width:100%;">
+						<div class="carousel-caption">
+						</div>
+					  </div>
+					  <div class="item">
+						<img src="images\TestImagecontrol_image4K_4096x2160_jpg100.jpg" alt="4096x2160" style="width:100%;">
+						<div class="carousel-caption">
+						</div>
+					  </div>
+					</div>
+			</div>
+			<a href="text_page/index.html"> 
+				<h3><b>Link to text_page</b></h3>
+			</a>
+		</div>
+		<div class="column">
+			<h3><b>iFrame text file</b><h3>
+				<div class="text_style">
+					<iframe src="Files/Lorem Ipsum.txt" width="600" height="600" frameborder="0">
+					</iframe>
+				</div>
+		</div>
+	</div>
+</div>
+<div class="icons">
+	<ul>
+	<li class="facebook"><i title="Facebook"><img src="images\social\facebook.svg"></i></li>
+	<li class="twitter"><i title="Twitter"><img src="images\social\twitter.svg"></i></li>
+	<li class="linkedin"><i title="LinkedIn"><img src="images\social\linkedin.svg"></i></li>
+	<li class="rss"><i title="Blog"><img src="images\social\blog.svg"></i></li>
+	<li class="youtube"><i title="Youtube"><img src="images\social\youtube.svg"></i></li>
+	</ul>
+</div>
+</body>
+</html>
